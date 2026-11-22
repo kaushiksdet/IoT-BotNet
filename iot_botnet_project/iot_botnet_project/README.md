@@ -1,4 +1,4 @@
-# IoT Botnet Attack Detection (UNSW Bot-IoT): classical ML + deep learning
+# IoT Botnet Attack Detection: classical ML + deep learning
 
 Plain-Python version of the Review 1 + Review 2 experiment (no Colab needed).
 
@@ -20,7 +20,7 @@ No GPU is needed. If TensorFlow will not install, use `pip install tensorflow-cp
 
 ## 2. Data
 
-Put the dataset at `data/UNSW_2018_IoT_Botnet_Dataset_2.csv` (headerless, 35 columns, as downloaded from UNSW).
+Put the dataset at `data/IoT_Botnet_Dataset.csv` (headerless, 35 columns, as downloaded).
 No dataset? Create a synthetic one: `python scripts/00_make_synthetic.py` (writes `data/synthetic_botiot.csv`), then pass `--data data/synthetic_botiot.csv`.
 
 ## 3. Run
